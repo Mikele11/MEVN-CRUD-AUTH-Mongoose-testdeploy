@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/books.jpg">
+    <img class="books" src="./assets/books.jpg">
     <router-view/>
   </div>
 </template>
@@ -19,5 +19,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.books {
+  margin-bottom:20px;
 }
 </style>
